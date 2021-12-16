@@ -1,0 +1,10 @@
+# mac OS files.
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Uncompressed javascript.
+js/tv.js
