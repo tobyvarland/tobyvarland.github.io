@@ -560,7 +560,7 @@ video {
 
 @media print {
   html, body {
-    font-size: 8pt;
+    font-size: 9pt;
   }
 }
 
