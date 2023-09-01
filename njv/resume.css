@@ -1058,11 +1058,12 @@ h3 {
 }
 
 .columns {
-  gap: 1.5rem;
+  gap: 0px;
 }
 
 @media (min-width: 768px) {
   .columns {
+    gap: 1.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
@@ -1103,6 +1104,16 @@ h3 {
 
 .columns .primary {
   grid-column: span 2 / span 2;
+}
+
+.columns .secondary {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .columns .secondary {
+    margin-top: 0px;
+  }
 }
 
 .awards-nominations li,
@@ -1258,7 +1269,6 @@ h3 {
 }
 
 .education .school-dates {
-  font-weight: 300;
   font-size: 0.875rem;
   line-height: 1.25rem;
   line-height: 1;
