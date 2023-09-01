@@ -674,16 +674,11 @@ h3 {
   }
 }
 
-@media (min-width: 768px) {
-  .page {
-    min-height: 85.9375rem;
-  }
-}
-
-@media print {
-  .page {
-    min-height: 0px;
-  }
+.page {
+  /*
+	@apply md:min-h-letter;
+	@apply print:min-h-0;
+	*/
 }
 
 @media (min-width: 768px) {
@@ -989,7 +984,7 @@ h3 {
 }
 
 .photos, .reel {
-  display: none;
+  /*@apply hidden*/
 }
 
 .photos ul {
@@ -1008,7 +1003,7 @@ h3 {
 .photos ul {
   flex-wrap: wrap;
   gap: 0.25rem;
-  margin-top: 0.25rem;
+  margin-top: 0.75rem;
   list-style-type: none;
 }
 
@@ -1025,7 +1020,7 @@ h3 {
 
 .reel ul {
   gap: 0.25rem;
-  margin-top: 0.25rem;
+  margin-top: 0.75rem;
   list-style-type: none;
 }
 

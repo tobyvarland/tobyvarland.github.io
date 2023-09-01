@@ -14,7 +14,7 @@
 		"build": "Average",
 		"voice": "Baritone"
 	},
-	"statement": "Hello! My name is Noah Varland, and I am a current sophomore at Highlands High School in Fort Thomas, KY. I first got involved with theatre in middle school, and throughout high school I have had the opportunity to appear on stage, work on the crew, and take theatre classes. I am a dedicated thespian, willing to do anything asked of me and committed to always showing up to rehearsals and performances prepared and ready to give it my all. Outside of theatre, I also participate in KHSSL competitive speach events, including improvisational duo, a skill that benefits me as an actor as well. I have been cast in named roles in award winning shows and in smaller roles in student written shows, and I strive to embrace the unique challenges and opportunities that come with each role.",
+	"statement": "My name is Noah Varland and I am a sophomore at Highlands High School. I have been doing theater for about 2 years now, and continue to take theater classes with Jason Burgess. I have done 7 full length productions, as well as 2 One acts, and have worked with Highlands and CAST multiple times. I consider myself dedicated, and willing to do anything asked of me. I will always come to a rehearsal or performance prepared and ready to give it my all. I have performed in a variety of ways, I have killed, rapped, roared, and even eaten on stage. I have also done duo improv in the past, so if something were to go wrong, I can usually find a way to stay focused, and just keep going. I have also been nominated for a Cappie award for my performance as Tobias Ragg in Sweeney Todd. Although I didn’t win, I consider a nomination to be a very special, once in a lifetime opportunity.",
 	"education": {
 		"schools": [
 			{
@@ -24,26 +24,24 @@
 				"graduation": "2026",
 				"gpa": "3.0",
 				"notes": [
-					"Expected graduation: 2026.",
-					"GPA: 3.0.",
-					"Completed Intro to Theatre course.",
-					"Currently enrolled in Acting &amp; Theatre Tech courses."
+					"Completed <em>Intro to Theatre</em> course.",
+					"Currently enrolled in <em>Acting</em> &amp; <em>Theatre Tech</em> courses."
 				]
 			}
 		],
-		"extra_curriculars": [
-			{
-				"title": "Highlands High School Drama Club",
-				"dates": "2022 &ndash; Current",
-				"details": null
-			},
+		"extracurriculars": [
 			{
 				"title": "Highlands High School Forensics Team",
 				"dates": "2022 &ndash; Current",
 				"details": "2022/2023 KHSSL State Qualifier"
 			},
 			{
-				"title": "Campbell County Youth Soccer League (U19)",
+				"title": "Highlands High School Drama Club",
+				"dates": "2022 &ndash; Current",
+				"details": null
+			},
+			{
+				"title": "Campbell County Youth Soccer League",
 				"dates": "2023 &ndash; Current",
 				"details": null
 			}
@@ -61,25 +59,87 @@
 			},
 			{
 				"title": "Voice Lessons",
-				"details": "<span>Instructor</span> Alyssa Vanderpool",
+				"details": "<span>Instructor:</span> Alyssa Vanderpool",
 				"dates": "2022/2023 School Year"
 			}
 		]
 	},
-	"acting_experience": [],
-	"crew_experience": [],
+	"other_notes": [
+		"Acted in one act shows written and/or directed by students in Highlands High School's Directing &amp; Playwriting courses (2022/2023 school year).",
+		"Participated in Northern Kentucky University 2023 Opiod-Impacted Family Support Program (OIFSP) Project. Acted (paid role) in a short film used to raise drug and alcohol awareness for NKU students (August 2023)."
+	],
+	"acting_experience": [
+		{
+			"date": "December 2023",
+			"title": "White Christmas",
+			"role": "General Henry Waverly",
+			"company": "Performing Arts Inc.",
+			"director": "Cheryl ?"
+		},
+		{
+			"date": "July 2023",
+			"title": "Mean Girls",
+			"role": "Ensemble/Glenn Coco",
+			"company": "CAST",
+			"director": "Jason Burgess"
+		},
+		{
+			"date": "March 2023",
+			"title": "Sweeney Todd",
+			"role": "Tobias Ragg",
+			"company": "Highlands High School",
+			"director": "Jason Burgess"
+		}
+	],
+	"crew_experience": [
+		{
+			"date": "July 2023",
+			"title": "The Ferryman",
+			"role": "Props/Run Crew",
+			"company": "CAST",
+			"director": "Mike Sherman"
+		},
+		{
+			"date": "January 2023",
+			"title": "Cinderella",
+			"role": "Assistant Carpenter",
+			"company": "Highlands Middle School",
+			"director": "Jason Burgess"
+		},
+		{
+			"date": "November 2022",
+			"title": "Tartuffe",
+			"role": "Set Deco/Run Crew",
+			"company": "Highlands High School",
+			"director": "Jason Burgess"
+		},
+		{
+			"date": "July 2022",
+			"title": "Shakespeare in Love",
+			"role": "Set Deco/Run Crew",
+			"company": "CAST",
+			"director": "Mike Sherman"
+		},
+		{
+			"date": "January 2022",
+			"title": "School of Rock",
+			"role": "Set Deco/Run Crew",
+			"company": "Highlands Middle School",
+			"director": "Jason Burgess"
+		}
+	],
 	"awards": [
 		{
-			"text": "Nominated for a&hellip;",
+			"text": "Nominated for 2023 Cappie Award for <strong>Best Featured Actor</strong> for portrayal of Tobias Ragg in Highlands High School's production of <em>Sweeney Todd</em>. <em>Sweeney Todd</em> won 7 Cappie Awards, including <strong>Best Musical</strong> and <strong>Best Song</strong>.",
 			"link": null
 		}
 	],
 	"press": [
 		{
-			"text": "Nominated for a&hellip;",
+			"text": "&hellip;Tobias, played by <strong>Noah Varland</strong>, was innocent and sincere in his approach to the character during &lsquo;Not While I'm Around,&rsquo; which made it all the more heartbreaking.",
 			"link": {
-				"text": "Cappies Award",
-				"url": "https://www.cappies.com/"
+				"text": "Loretta Rubin, Walnut Hills High School Critic Team",
+				"url": "https://www.cincicap.com/post/highlands-high-school-s-sweeney-todd#viewer-dqm99"
 			}
 		}
 	]
