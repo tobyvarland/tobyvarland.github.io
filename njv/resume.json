@@ -1,0 +1,86 @@
+{
+	"name": "Noah Varland",
+	"pronouns": "he/him",
+	"contact": {
+		"email": "noahjackvarland@gmail.com",
+		"phone": "8596536025",
+		"website": "noahvarland.com"
+	},
+	"physical": {
+		"height": "5&prime; 6&Prime;",
+		"weight": "165 lbs",
+		"hair": "Brown",
+		"eyes": "Hazel",
+		"build": "Average",
+		"voice": "Baritone"
+	},
+	"statement": "Hello! My name is Noah Varland, and I am a current sophomore at Highlands High School in Fort Thomas, KY. I first got involved with theatre in middle school, and throughout high school I have had the opportunity to appear on stage, work on the crew, and take theatre classes. I am a dedicated thespian, willing to do anything asked of me and committed to always showing up to rehearsals and performances prepared and ready to give it my all. Outside of theatre, I also participate in KHSSL competitive speach events, including improvisational duo, a skill that benefits me as an actor as well. I have been cast in named roles in award winning shows and in smaller roles in student written shows, and I strive to embrace the unique challenges and opportunities that come with each role.",
+	"education": {
+		"schools": [
+			{
+				"name": "Highlands High School",
+				"location": "Fort Thomas, KY",
+				"dates": "2022 &ndash; Current",
+				"graduation": "2026",
+				"gpa": "3.0",
+				"notes": [
+					"Expected graduation: 2026.",
+					"GPA: 3.0.",
+					"Completed Intro to Theatre course.",
+					"Currently enrolled in Acting &amp; Theatre Tech courses."
+				]
+			}
+		],
+		"extra_curriculars": [
+			{
+				"title": "Highlands High School Drama Club",
+				"dates": "2022 &ndash; Current",
+				"details": null
+			},
+			{
+				"title": "Highlands High School Forensics Team",
+				"dates": "2022 &ndash; Current",
+				"details": "2022/2023 KHSSL State Qualifier"
+			},
+			{
+				"title": "Campbell County Youth Soccer League (U19)",
+				"dates": "2023 &ndash; Current",
+				"details": null
+			}
+		],
+		"classes_workshops": [
+			{
+				"title": "Musical Theatre Dance (Level 1 &amp; 2)",
+				"details": "Madcap Education Center",
+				"dates": "2023/2024 School Year"
+			},
+			{
+				"title": "Musical Theatre Tap (Level 1)",
+				"details": "Madcap Education Center",
+				"dates": "2023/2024 School Year"
+			},
+			{
+				"title": "Voice Lessons",
+				"details": "<span>Instructor</span> Alyssa Vanderpool",
+				"dates": "2022/2023 School Year"
+			}
+		]
+	},
+	"acting_experience": [],
+	"crew_experience": [],
+	"awards": [
+		{
+			"text": "Nominated for a&hellip;",
+			"link": null
+		}
+	],
+	"press": [
+		{
+			"text": "Nominated for a&hellip;",
+			"link": {
+				"text": "Cappies Award",
+				"url": "https://www.cappies.com/"
+			}
+		}
+	]
+}
