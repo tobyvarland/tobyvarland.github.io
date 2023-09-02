@@ -15,6 +15,8 @@ function formatResume() {
 		formatPress(data);
 		formatStageExperience(data);
 		formatCrewExperience(data);
+		formatPhotos(data);
+		formatReel(data);
 	});
 }
 
@@ -193,7 +195,7 @@ function formatStageExperience(data) {
 		company.className = 'company';
 		let companyTitle = document.createElement('div');
 		companyTitle.className = 'company-title';
-		companyTitle.innerHTML = item.company;
+		companyTitle.innerHTML = `<span>Company:</span> ${item.company}`;
 		company.appendChild(companyTitle);
 		let director = document.createElement('div');
 		director.className = 'show-director';
@@ -227,7 +229,7 @@ function formatCrewExperience(data) {
 		company.className = 'company';
 		let companyTitle = document.createElement('div');
 		companyTitle.className = 'company-title';
-		companyTitle.innerHTML = item.company;
+		companyTitle.innerHTML = `<span>Company:</span> ${item.company}`;
 		company.appendChild(companyTitle);
 		let director = document.createElement('div');
 		director.className = 'show-director';
@@ -238,17 +240,37 @@ function formatCrewExperience(data) {
 	});
 }
 
-formatResume();
-
-// Generate random photos.
-/*
-let photos = [];
-let photoCount = Math.floor(Math.random() * 8) + 3;
-for (let i = 0; i < photoCount; i++) {
-	let width = Math.floor(Math.random() * 1001) + 1000;
-	let height = Math.floor(Math.random() * 801) + 700;
-	photos.push(`<li><img src="https://picsum.photos/${width}/${height}/?random=${i}"></li>`);
+function formatPhotos(data) {
+	document.querySelector('.photos ul').innerHTML = '';
+	for (let i = 1; i <= data.photo_count; i++) {
+		let thisItem = document.createElement('li');
+		let link = document.createElement('a');
+		link.href = `gallery/${i}.jpg`;
+		link.className = 'venobox';
+		link.setAttribute('data-gall', 'photos');
+		let image = document.createElement('img');
+		image.setAttribute('src', `gallery/${i}.jpg`);
+		link.appendChild(image);
+		thisItem.appendChild(link);
+		document.querySelector('.photos ul').appendChild(thisItem);
+	}
+	new VenoBox({
+		infinigall: true,
+		spinner: 'grid'
+	});
 }
 
-document.querySelector('.photos ul').innerHTML = photos.join('');
-*/
+function formatReel(data) {
+	document.querySelector('.reel ul').innerHTML = '';
+	data.reel.forEach(item => {
+		let thisItem = document.createElement('li');
+		let frame = document.createElement('iframe');
+		frame.src = `https://www.youtube.com/embed/${item}`;
+		frame.setAttribute('frameborder', '0');
+		frame.setAttribute('allowfullscreen', 'true');
+		thisItem.appendChild(frame);
+		document.querySelector('.reel ul').appendChild(thisItem);
+	});
+}
+
+formatResume();
